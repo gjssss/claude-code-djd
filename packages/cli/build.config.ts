@@ -9,6 +9,8 @@ export default defineBuildConfig({
   rollup: {
     inlineDependencies: [
       '@antfu/utils',
+      'cac',
     ],
+    preserveShebang: true,
   },
 })
