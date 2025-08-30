@@ -11,3 +11,8 @@ node_modules
 temp
 .nuxt
 .output
+
+# Database files
+packages/server/data/
+*.db
+*.db-*
