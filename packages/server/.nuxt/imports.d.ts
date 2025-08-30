@@ -32,7 +32,7 @@ export { computedAsync, asyncComputed, computedEager, eagerComputed, computedInj
 export { defineLazyHydrationComponent } from '#app/composables/lazy-hydration';
 export { useCount } from '../app/composables/count';
 export { useUserStore } from '../app/composables/user';
-export { defineStore, acceptHMRUpdate, usePinia, storeToRefs } from '../../../node_modules/.pnpm/@pinia+nuxt@0.11.2_magicast@0.3.5_pinia@3.0.3_typescript@5.9.2_vue@3.5.20_typescript@5.9.2__/node_modules/@pinia/nuxt/dist/runtime/composables';
-export { useColorMode } from '../../../node_modules/.pnpm/@nuxtjs+color-mode@3.5.2_magicast@0.3.5/node_modules/@nuxtjs/color-mode/dist/runtime/composables';
-export { usePWA, useTransparentPwaIcon, useMaskablePwaIcon, useFaviconPwaIcon, useApplePwaIcon, useAppleSplashScreenPwaIcon } from '../../../node_modules/.pnpm/@vite-pwa+nuxt@1.0.4_magicast@0.3.5_vite@7.1.3_@types+node@22.18.0_jiti@2.5.1_terser@5._5dd40909ca00a489348c98b84583424f/node_modules/@vite-pwa/nuxt/dist/runtime/composables/index';
-export { definePageMeta } from '../../../node_modules/.pnpm/nuxt@4.0.3_@netlify+blobs@9.1.2_@parcel+watcher@2.5.1_@types+node@22.18.0_@vue+compiler_1a2e8218d88e895beebbff8354b4119a/node_modules/nuxt/dist/pages/runtime/composables';
+export { defineStore, acceptHMRUpdate, usePinia, storeToRefs } from '../node_modules/@pinia/nuxt/dist/runtime/composables';
+export { useColorMode } from '../node_modules/@nuxtjs/color-mode/dist/runtime/composables';
+export { usePWA, useTransparentPwaIcon, useMaskablePwaIcon, useFaviconPwaIcon, useApplePwaIcon, useAppleSplashScreenPwaIcon } from '../node_modules/@vite-pwa/nuxt/dist/runtime/composables/index';
+export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';
