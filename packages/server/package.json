@@ -13,7 +13,12 @@
     "start": "node .output/server/index.mjs",
     "start:generate": "npx serve .output/public",
     "lint": "eslint .",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.14",
+    "drizzle-orm": "^0.44.5"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.17.0",
@@ -29,6 +34,7 @@
     "@vite-pwa/nuxt": "^1.0.4",
     "@vueuse/core": "^13.5.0",
     "@vueuse/nuxt": "^13.5.0",
+    "drizzle-kit": "^0.31.4",
     "eslint": "^9.31.0",
     "eslint-plugin-format": "^1.0.1",
     "nuxt": "^4.0.0",

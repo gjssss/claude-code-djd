@@ -42,8 +42,6 @@ export default defineNuxtConfig({
   },
 
   experimental: {
-    // when using generate, payload js assets included in sw precache manifest
-    // but missing on offline, disabling extraction it until fixed
     payloadExtraction: false,
     renderJsonPayloads: true,
     typedPages: true,
@@ -56,11 +54,6 @@ export default defineNuxtConfig({
       options: {
         target: 'esnext',
       },
-    },
-    prerender: {
-      crawlLinks: false,
-      routes: ['/'],
-      ignore: ['/hi'],
     },
   },
 
