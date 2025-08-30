@@ -15,18 +15,18 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "bin": {
-    "claude-code-djd": "./dist/index.mjs"
+    "ccd": "./dist/index.mjs"
   },
   "files": [
     "dist"
   ],
   "scripts": {
+    "start": "node dist/index.mjs",
     "build": "unbuild",
     "dev": "unbuild --stub",
     "lint": "eslint",
     "prepublishOnly": "nr build",
     "release": "bumpp && pnpm publish",
-    "start": "tsx src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"

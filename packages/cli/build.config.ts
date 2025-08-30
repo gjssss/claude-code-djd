@@ -11,6 +11,6 @@ export default defineBuildConfig({
       '@antfu/utils',
       'cac',
     ],
-    preserveShebang: true,
+    // preserveShebang: true,
   },
 })
