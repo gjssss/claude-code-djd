@@ -1,7 +1,7 @@
 {
-  "_hash": "A_QaK080mM05_zw3CAWT8vtJbb7CXtAueJnmff4aj10",
+  "_hash": "AXy2srotM6Dw8njZ7mkgK_ndAMF8IVI0DzeT02z68yU",
   "project": {
-    "rootDir": "/Volumes/移动硬盘/Code/ts/claude-code-djd/packages/server"
+    "rootDir": "/home/runner/work/claude-code-djd/claude-code-djd/packages/server"
   },
   "versions": {
     "nuxt": "4.0.3"

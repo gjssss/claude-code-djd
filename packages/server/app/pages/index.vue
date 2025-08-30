@@ -1,32 +1,6 @@
-<script setup lang="ts">
-definePageMeta({
-  layout: 'home',
-})
-
-const online = useOnline()
-</script>
-
 <template>
-  <div>
-    <Logos mb-6 />
-    <ClientOnly>
-      <Suspense>
-        <PageView v-if="online" />
-        <div v-else text-gray:80>
-          You're offline
-        </div>
-        <template #fallback>
-          <div op50 italic>
-            <span animate-pulse>Loading...</span>
-          </div>
-        </template>
-      </Suspense>
-      <template #fallback>
-        <div op50>
-          <span animate-pulse>...</span>
-        </div>
-      </template>
-    </ClientOnly>
-    <InputEntry />
+  <div class="px-10 py-20 text-center">
+    <h1 class="text-4xl font-bold mb-6">Welcome</h1>
+    <p class="text-lg text-gray-600">This is a basic page.</p>
   </div>
 </template>

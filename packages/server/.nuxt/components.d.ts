@@ -12,13 +12,7 @@ type HydrationStrategies = {
 }
 type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }>)
 interface _GlobalComponents {
-      'Counter': typeof import("../app/components/Counter.vue")['default']
-    'DarkToggle': typeof import("../app/components/DarkToggle.vue")['default']
-    'Footer': typeof import("../app/components/Footer.vue")['default']
-    'InputEntry': typeof import("../app/components/InputEntry.vue")['default']
-    'Logos': typeof import("../app/components/Logos.vue")['default']
-    'PageView': typeof import("../app/components/PageView.vue")['default']
-    'UnoIcon': typeof import("../node_modules/@unocss/nuxt/runtime/UnoIcon.vue")['default']
+      'UnoIcon': typeof import("../node_modules/@unocss/nuxt/runtime/UnoIcon.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
     'NuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -52,13 +46,7 @@ interface _GlobalComponents {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']
-      'LazyCounter': LazyComponent<typeof import("../app/components/Counter.vue")['default']>
-    'LazyDarkToggle': LazyComponent<typeof import("../app/components/DarkToggle.vue")['default']>
-    'LazyFooter': LazyComponent<typeof import("../app/components/Footer.vue")['default']>
-    'LazyInputEntry': LazyComponent<typeof import("../app/components/InputEntry.vue")['default']>
-    'LazyLogos': LazyComponent<typeof import("../app/components/Logos.vue")['default']>
-    'LazyPageView': LazyComponent<typeof import("../app/components/PageView.vue")['default']>
-    'LazyUnoIcon': LazyComponent<typeof import("../node_modules/@unocss/nuxt/runtime/UnoIcon.vue")['default']>
+      'LazyUnoIcon': LazyComponent<typeof import("../node_modules/@unocss/nuxt/runtime/UnoIcon.vue")['default']>
     'LazyNuxtWelcome': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
     'LazyNuxtLayout': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
     'LazyNuxtErrorBoundary': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>
@@ -98,12 +86,6 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
-export const Counter: typeof import("../app/components/Counter.vue")['default']
-export const DarkToggle: typeof import("../app/components/DarkToggle.vue")['default']
-export const Footer: typeof import("../app/components/Footer.vue")['default']
-export const InputEntry: typeof import("../app/components/InputEntry.vue")['default']
-export const Logos: typeof import("../app/components/Logos.vue")['default']
-export const PageView: typeof import("../app/components/PageView.vue")['default']
 export const UnoIcon: typeof import("../node_modules/@unocss/nuxt/runtime/UnoIcon.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -138,12 +120,6 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']
-export const LazyCounter: LazyComponent<typeof import("../app/components/Counter.vue")['default']>
-export const LazyDarkToggle: LazyComponent<typeof import("../app/components/DarkToggle.vue")['default']>
-export const LazyFooter: LazyComponent<typeof import("../app/components/Footer.vue")['default']>
-export const LazyInputEntry: LazyComponent<typeof import("../app/components/InputEntry.vue")['default']>
-export const LazyLogos: LazyComponent<typeof import("../app/components/Logos.vue")['default']>
-export const LazyPageView: LazyComponent<typeof import("../app/components/PageView.vue")['default']>
 export const LazyUnoIcon: LazyComponent<typeof import("../node_modules/@unocss/nuxt/runtime/UnoIcon.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
 export const LazyNuxtLayout: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
