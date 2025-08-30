@@ -11,3 +11,12 @@ node_modules
 temp
 .nuxt
 .output
+
+# Database files
+packages/server/data/
+*.db
+*.db-*
+
+# Test files
+packages/server/sample-logs.jsonl
+packages/server/test-logs.mjs
